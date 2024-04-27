@@ -425,12 +425,15 @@
 // 40-masala
 
 // function uzunlik(a) {
-//   let number = a.split("");
-//   console.log(number);
+//   if (a === "") {
+//     return 0;
+//   } else {
+//     return 1 + uzunlik(a.slice(1));
+//   }
 // }
 
-// uzunlik("farhod");
-// DOMLA OZI BIZ BU MAVZUNI O'TMAGANMIZ SHUNAQA HOLATTA CHIQARIB QO'YDIM :).
+// console.log(uzunlik("Farhod")); //6
+// console.log(uzunlik("Eldor")); //5
 
 // 41-masala
 
